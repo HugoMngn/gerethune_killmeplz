@@ -24,6 +24,12 @@
         <activity
             android:name=".AdddepenseActivity"
             android:exported="true" />
+        <activity
+            android:name=".StatsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

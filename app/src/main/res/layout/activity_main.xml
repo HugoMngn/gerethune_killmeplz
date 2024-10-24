@@ -38,22 +38,12 @@
         android:layout_marginStart="118dp"
         android:layout_marginTop="26dp"
         android:layout_marginEnd="119dp"
+        android:layout_marginBottom="268dp"
         android:text="Voir les statistiques"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Historique" />
-
-    <Button
-        android:id="@+id/param"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="144dp"
-        android:layout_marginTop="29dp"
-        android:layout_marginEnd="145dp"
-        android:text="Paramètres"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/stats" />
 
     <TextView
         android:id="@+id/textView"

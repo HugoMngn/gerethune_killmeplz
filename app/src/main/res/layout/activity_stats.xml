@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/retour"
+        android:id="@+id/retour2"
         android:layout_width="91dp"
         android:layout_height="40dp"
         android:layout_marginStart="17dp"

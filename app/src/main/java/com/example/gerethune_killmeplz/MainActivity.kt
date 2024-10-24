@@ -24,5 +24,13 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, AdddepenseActivity::class.java)
             startActivity(intent)
         }
+        findViewById<Button>(R.id.Historique).setOnClickListener {
+            val intent = Intent(this, HistoryActivity::class.java)
+            startActivity(intent)
+        }
+        findViewById<Button>(R.id.stats).setOnClickListener {
+            val intent = Intent(this, StatsActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
